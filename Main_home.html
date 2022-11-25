@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,7 +36,7 @@
     <div class="img-scroll-comp">
         <!--NEXT IMAGE 1-->
         <div class="banner1">
-            <img src="./keerthika/indian.jpg" alt="">
+            <img src=".indian.jpg" alt="">
             <div class="text-box">
                 <h1>Indian Cusines</h1>
                 <span></span>
@@ -49,7 +48,7 @@
         </div>
         <!--Title Image-->
         <div class="banner_main">
-            <img src="./keerthika/TastyPlate.jpeg" alt="">
+            <img src="./TastyPlate.jpeg" alt="">
             <div class="text-box">
                 <h1>Welcome to <br>Tasty Plate</h1>
                 <span></span>
@@ -60,7 +59,7 @@
 
         <!--NEXT IMAGE 1-->
         <div class="banner01">
-            <img src="./keerthika/indian.jpg" alt="">
+            <img src="./indian.jpg" alt="">
             <div class="text-box">
                 <h1>Indian Cuisines</h1>
                 <span></span>
@@ -74,7 +73,7 @@
 
         <!--NEXT IMAGE 2-->
         <div class="banner2">
-            <img src="./keerthika/korean.jpg" alt="">
+            <img src="./korean.jpg" alt="">
             <div class="text-box">
                 <h1>Korean Cuisines</h1>
                 <span></span>
@@ -82,13 +81,13 @@
                     Dairy is largely absent from the traditional Korean diet. Traditional Korean meals are named for the
                     number of side dishes (반찬; 飯饌; banchan) that accompany steam-cooked short-grain rice.<br>Explore
                     Korean Cuisines here</p>
-                <button class="Explore">Explore More</button>
+                <button class="Explore" onclick="korea_click()">Explore More</button>
             </div>
         </div>
 
         <!--NEXT IMAGE 3-->
         <div class="banner3">
-            <img src="./keerthika/italian.jpg" alt="">
+            <img src="./italian.jpg" alt="">
             <div class="text-box">
                 <h1>Italian Cuisines</h1>
                 <span></span>
@@ -99,13 +98,13 @@
                     <br>Explore
                     Italian Cuisines here
                 </p>
-                <button class="Explore">Explore More</button>
+                <button class="Explore" onclick="italian_click()">Explore More</button>
             </div>
         </div>
 
         <!--NEXT IMAGE 4-->
         <div class="banner4">
-            <img src="./keerthika/japnese.jpg" alt="">
+            <img src="./japnese.jpg" alt="">
             <div class="text-box">
                 <h1>Japenese Cuisines</h1>
                 <span></span>
@@ -114,13 +113,13 @@
                     nutritious.The traditional cuisine of Japan ( Japanese: washoku) is based on rice with miso soup and
                     other dishes; there is an emphasis on seasonal ingredients.<br>Explore
                     Japenese Cuisines here</p>
-                <button class="Explore">Explore More</button>
+                <button class="Explore" onclick="japnese_click()">Explore More</button>
             </div>
         </div>
 
         <!--NEXT IMAGE 5-->
         <div class="banner5">
-            <img src="./keerthika/mexican.jpg" alt="">
+            <img src="./mexican.jpg" alt="">
             <div class="text-box">
                 <h1>Mexican Cuisines</h1>
                 <span></span>
@@ -129,7 +128,7 @@
                     dishes, but chefs know “a thousand ways to combine them.”
                     Modern Mexicans reverently preserve their rich gastronomic heritage.<br>Explore
                     Mexican Cuisines here</p>
-                <button class="Explore">Explore More</button>
+                <button class="Explore" onclick="mexican_click()">Explore More</button>
             </div>
         </div>
 
@@ -174,7 +173,19 @@
             window.open("./contact-demo.html", "_self");
         }
         function india_click() {
-            window.open("./indian_dishes.html", "_self");
+            window.open("./indian/indian_dishes.html", "_self");
+        }
+        function korea_click() {
+            window.open("./korean/koreandishes.html", "_self");
+        }
+        function italian_click() {
+            window.open("./Italian/italian_dishes.html", "_self");
+        }
+        function japnese_click() {
+            window.open("./japanese/japanesedishes.html", "_self");
+        }
+        function mexican_click() {
+
         }
     </Script>
 </body>
