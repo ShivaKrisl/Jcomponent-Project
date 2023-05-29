@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./aboutuscss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo One:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="head">
+            <h1>About Us</h1>
+        </div>
+        <div class="home-btn">
+            <button class="home" onclick="home_click()">Home</button>
+        </div>
+    </div>
+
+    <div class="labels">
+        <h2 class="headings"> Our Mission</h2>
+    </div>
+    <div class="info-box">
+        <div class="info">
+            <label>Thank you for looking at us. We hope our sevices helped you to prepare your food.<br>We believe
+                business can grow with a firm Passion and Succeed with consistency. That's why we have
+                started a free service where FoodNerds can find their Favourite Cuisines, prepare them and learn from
+                our Expert chefs.<br>Our Committee provides 24/7 service to add various new recipies across different
+                Countries to improve your experirence even more better.</label>
+        </div>
+        <div class="india-img-card">
+            <img src="./mission-img.png" class="info-img">
+        </div>
+    </div>
+
+    <div class="labels">
+        <h2 class="headings">Our Team</h2>
+    </div>
+
+
+    <div class="teamContainer">
+        <div class="teamColumn">
+            <div class="teamCard">
+                <img src="./keerthika-img.JPG" />
+                <div class="personContainer">
+                    <h3>Keerthika</h3>
+                    <p class="Designation">Front End Developer</p>
+                    <p><button class="contact" onclick="contact()">Contact</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="teamColumn">
+            <div class="teamCard">
+                <img src="./sahithi-img.JPG" />
+                <div class="personContainer">
+                    <h3>Sahithi</h3>
+                    <p class="Designation">Front End Developer</p>
+                    <p><button class="contact" onclick="contact()">Contact</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="teamColumn">
+            <div class="teamCard">
+                <img src="./shiva-img.JPG" />
+                <div class="personContainer">
+                    <h3>Shiva Krishna</h3>
+                    <p class="Designation">Front End Developer</p>
+                    <p><button class="contact" onclick="contact()">Contact</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function home_click() {
+            window.open("./Main_home.html", "_self");
+        }
+
+        function contact() {
+            window.open("./contact-demo.html", "_self");
+        }
+    </script>
+</body>
+
+</html>

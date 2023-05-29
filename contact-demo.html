@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact-demo.css">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="back-img">
+        <img src="./TastyPlate.jpeg" alt="">
+    </div>
+    <div class="head-body-flex">
+        <div class="head">
+            <h2>Contact Us</h2>
+            <p>You will hear from us at the earliest!</p>
+        </div>
+        <div class="formBox">
+
+            <form action="./Main_home.html" onsubmit="notif()">
+
+                <div class="nameInp">
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" placeholder="Full Name" name="name" id="name" required>
+
+                </div>
+                <div class="mailInp">
+                    <i class="fa fa-envelope"></i>
+                    <input type="email" name="mail" id="mail" placeholder="Email" required>
+                </div>
+                <div class="phoneInp">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="tel" name="phone" pattern="[0-9]{10}" maxlength="10" id="phone"
+                        placeholder="10 digit Phone number" required>
+                </div>
+                <div class="queryInp">
+                    <textarea name="query" id="query" cols="30" rows="5" placeholder=" your Query or Feedback"
+                        required></textarea>
+                </div>
+                <div class="submitBtn">
+                    <button id="btn1">Send</button>
+                    <button id="btn" onclick="go_back()">Back</button>
+                </div>
+                <p class="extra">You can also call us at<span>+91-9398325300</span></p>
+            </form>
+
+        </div>
+    </div>
+    <script>
+        function notif() {
+            window.alert("Thank you for your Response");
+
+        }
+        function go_back() {
+            window.open("./Main_home.html", "_self");
+        }
+    </script>
+</body>
+
+</html>
